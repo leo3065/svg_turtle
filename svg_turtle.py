@@ -122,14 +122,13 @@ if __name__ == '__main__':
     abspath = os.path.abspath(__file__)
     dirname = os.path.dirname(abspath)
 
-    parser = cml_parse_arg()
-    args = parser.parse_args()
-    svg_file = args.svg
-    sprite_path = args.sprite
+    #parser = cml_parse_arg()
+    #args = parser.parse_args()
+    #svg_file = args.svg
+    #sprite_path = args.sprite
 
-    #svg_file = 'test_input/227_dw.svg'
-    #sprite_path = 'test_input/turtle_sprites/a{}_3.gif'
-    #sprite_path = None
+    svg_file = 'test_input/227_dw.svg'
+    sprite_path = 'test_input/turtle_sprites/a{}_3.gif'
 
     if svg_file is not None:
         svg_file = os.path.join(dirname, svg_file)
