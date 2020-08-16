@@ -1,7 +1,7 @@
 # svg_turtle
 A python program that reads .svg file (and optionally 8 images for turtle's shape) using python's `turtle` module. 
 
-![](https://drive.google.com/u/1/uc?id=1tRn-U08EdZg9Mm9Hyt3UJszdSjIF4JhP&export=download)
+![gif](https://raw.githubusercontent.com/leo3065/svg_turtle/master/gif/out.gif)
 
 Currently only supporting files with close paths and layers with no transformation. 
 
