@@ -138,3 +138,4 @@ if __name__ == '__main__':
         main_draw(svg_file, sprite_path)
     else:
         parser.print_help()
+
